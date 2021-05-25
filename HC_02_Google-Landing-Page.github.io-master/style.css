@@ -137,8 +137,56 @@ a:hover {
     height: 36px;
     min-width: 120px;
     background-color: #f2f2f2;
-    border: 1px solid #f8f8f8;
+    border: 1px solid #f2f2f2;
     border-radius: 4px;
     color: #5f6368;
+}
 
+#btn-1:hover, #btn-2:hover{
+    box-shadow: 0 1px 1 px rgba(0, 0, 0, 0.1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222222;
+    cursor: pointer;
+}
+.lang {
+    text-align: center;
+    margin-top: 33px;
+    font-size: small;
+}
+#language a {
+    color: #1967d2 ;
+    text-decoration: none;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #f2f2f2;
+    width: 100%;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+.country {
+    border-bottom: 1px solid #e4e4e4;
+    padding-left: 10px;
+}
+
+.country:hover{
+    text-decoration: underline;
+    color: #4285f4;
+    cursor: pointer;
+}
+
+.footer-left {
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-right {
+    float: right;
+    margin: 0 12px 0 0 ;
 }
